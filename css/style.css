@@ -134,3 +134,32 @@ img {
    }
 }
 
+@media screen and (max-width:480px) {
+
+    .row {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .col {
+        padding: 0;
+    }
+
+    .lessons p{
+        padding-bottom: 3rem;
+    }
+    
+    .why-us{
+        background-color: black;
+        margin: 0;
+    }
+
+    .steps{
+        margin: 0;
+        
+    }
+
+    .why-us .text-center{
+        padding-top: 3rem;
+    }
+}
